@@ -1,0 +1,30 @@
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+.button-controls {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .button-controls {
+    justify-content:center;
+  }
+  .button-controls button {
+    margin: 0 10px;
+  }
+  .content img {
+    width: auto;
+  }
+  .transcript {
+    padding: 20px 20%;
+  }
+}
+ 
